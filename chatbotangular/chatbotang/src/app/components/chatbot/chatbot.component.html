@@ -1,0 +1,65 @@
+<div class="khraa">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <img src="https://image.flaticon.com/icons/png/512/2936/2936609.png" height="5%" width="5%"
+        alt="The Elevation Group Logo" />
+
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="acceuil">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="acceuil">Advice</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="jobs">Job serach</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="chatbot" tabindex="-1" aria-disabled="true">Virtual Assistant</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="profile" tabindex="-1" aria-disabled="true">User Profile</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link " href=" " tabindex="-1" aria-disabled="true">Logout</a>
+         </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <kendo-chat [messages]="feed | async" [user]="user" (sendMessage)="sendMessage($event)"
+    style="height: 550px; background-color: rgb(245, 239, 239);">
+    <kendo-upload>
+    </kendo-upload>
+
+  </kendo-chat>
+  <!-- <button kendoButton (click)="onButtonClick()" [primary]="true" style="margin-left: 700px;">Browse</button> -->
+  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-paperclip" viewBox="0 0 16 16" style="margin-left: 980px;">
+    <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"/>
+  </svg> -->
+  <kendo-fileselect
+      [restrictions]="fileRestrictions"
+      (select)="selectEventHandler($event)"
+      (remove)="removeEventHandler($event)" style="margin-left:520px;margin-right: 520px;"
+    >
+    </kendo-fileselect>
+
+    <!-- <event-log title="Event log" [events]="events"></event-log> -->
+
+    <div *ngIf="imagePreviews.length" class="img-preview example-config">
+      <h3>Preview selected images</h3>
+      <img
+        *ngFor="let image of imagePreviews"
+        [src]="image.src"
+        alt="image preview"
+        style="width: 200px; margin: 10px;"
+      />
+    </div>
+
+</div>

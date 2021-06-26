@@ -1,0 +1,183 @@
+sentences,intent
+hi,greeting
+hello,greeting
+good morning,greeting
+hi there,greeting
+good day, greeting
+hola,greeting
+good morning,greeting
+good afternoon,greeting
+it's a pleasure,greeting
+good evening,greeting
+good night,greeting
+Morning,greeting
+What's new,greeting
+good to see you,greeting
+what's new?,greeting
+hi what's new ,greeting 
+yo!,greeting
+gooodbye!,goodbye
+good bye,goodbye
+good bye!,goodbye
+see you soon,goodbye
+see you,goodbye
+Till next time,goodbye
+nice chating with you bye,goodbye
+see you later,goodbye
+so long,goodbye
+for the next time,goodbye
+next time,goodbye
+soon,goodbye
+later,goodbye
+bye bye,goodbye
+i'v got to go,goodbye
+i have to go,goodbye
+i have to go bye,goodbye
+i must go,goodbye
+i'm going,goodbye
+have a nice day,goodbye
+goodnight,goodbye
+take care bye,goodbye
+thank you,thanks
+thanks,thanks
+You’re the best,thanks
+I’m humbled and grateful,thanks
+You knocked me off my feet!,thanks
+My heart is still smiling,thanks
+Your thoughtfulness is a gift I will always treasure,thanks
+Sometimes the simplest things mean the most,thanks
+You made my day,thanks
+I’m touched beyond words,thanks
+I’m grateful,thanks
+great,thanks
+so good,thanks
+woww,thanks
+Thanks for helping me,thanks
+Awesome,thanks
+That's helpful,thanks
+merci,thanks
+ThankyouThankyouThankyou,thanks
+Who are you,who_are_you
+what's your name,who_are_you
+name,who_are_you
+your name?,who_are_you
+chatbot name,who_are_you
+What's your name?,who_are_you
+What are you,who_are_you
+Who is this,who_are_you
+How you could help me?,options
+what can you do ,options
+what is your options?,options
+what is your job?,options
+what help you provide?,options
+How you can be helpful?,options
+What support is offered,options
+How’s everything?,How Are You
+How’s it going?,How Are You
+How are things?,How Are You
+What’s up?,How Are You
+How are you doing?,
+What’s new?,How Are You
+You all right?,How Are You
+How have you been?,How Are You
+How are things going?,How Are You
+Are you well?,How Are You
+What’s going on?,How Are You
+How are you feeling?,How Are You
+What are you up to?,How Are You
+What’s sizzling?,How Are You
+How do you do?,How Are You
+Howdy!,How Are You
+What’s good in the hood?,How Are You
+Long time no see!,How Are You
+What’s new with you?,How Are You
+How long has it been?,How Are You
+Must be tough huh?,How Are You
+Sup?,How Are You
+Anything interesting happening in your life lately?,How Are You
+What is happening?,How Are You
+How are you holding up?,How Are You
+How is life sailing?,How Are You
+What are you heading?,How Are You
+How are things coming along?,How Are You
+What was the highlight of your day so far?,How Are You
+How was your day?,How Are You
+improve my chance to get a job?,chance
+how to get this job?,chance
+How to Increase my Chances of Getting a Job?,chance
+have you an idea how can i get this job?,chance
+is there a chance to be accepted?,chance
+how to boost py chance to get the job?,chance
+is there tips to boost my chnace to get the job?,chance
+how do i guarantee a job ?,chance
+how do i get certificates ?,chance
+what certification ca i get?,chance
+which online certification is best ?,chance
+what are the best free online courses ?,chance
+education sites?,chance
+what are the education sites to get certificates ?,chance
+what are the best education sites?,chance
+how could i have a great resume?,resume
+How can i create a professional resume?,Resume
+how can i prepare my resume?,Resume
+is the resume essential to get the job ?,Resume
+how can i have a good resume,Resume
+what does a resume look like ?,Resume
+how does the resume should be ?,Resume
+what does the resume look like?,Resume
+what does the best cover letter look like?,Cover letter
+what does a cover letter look like ?,Cover letter
+how can i create a great cover letter,Cover letter
+how can i prepar my cover letter,Cover letter
+how can i have a good cover letter,Cover letter
+what are The Skills and Characteristics of a Good Employee ?,advice
+what are The qualities and Characteristics of a Good Employee ?,advice
+what are the best qualities of an employee?,advice
+What are the top things employees look for?,advice
+Can you please tell me the process?,process	
+Can you please tell me the procedure of this pass application?,process
+Can you please tell me the procedure of application?,process
+How to apply for a new application,process	
+How to register for a the job,process
+How to apply for the application?,process	
+Process for registration,process	
+Register for the job,process	
+Apply for the job?,process	
+Register for the job,process	
+How to apply?,process
+Application process?,process	
+Registration method?,process	
+Process of application,process
+How do I apply?,process
+Give me the registration procedure,process	
+How can i join the company?,process
+what are the jobs that match my profile?,recommendation
+which job would you recommend ?,recommendation
+can you recommend me some job?,recommendation
+recommend me,recommendation
+would you recommend me jobs,recommendation
+i need some links to apply for a job,recommendation
+can you help me to find the best jobs ?,
+help me to find a job	,recommendation
+could youu help me to find a job?,recommendation
+i need your help to find a job,recommendation
+i need your help to get a job,recommendation
+would you help me to get a job,recommendation
+i didn't get a job yet could you help me ?,recommendation
+What you need for skills to apply for this job, skills
+The skills that demand this jobs?,skills
+What we need for skills?,skills
+Compétences for this jobs, skills
+what are the techniques that demand this jobs, skills
+Can you tell me more about this job ,jobdescription
+I want to know more about this jobs,jobdescription
+tell me more about it,jobdescription
+what is the jobdescription,jobdescription
+what is the description of this job,jobdescription
+how does it match my profile,score
+is it a good job for me,score
+does it match my profile,score
+what is the name of the company,company
+what is the company,company
+can you tell me about the company,company
+i want to know the company,compnay

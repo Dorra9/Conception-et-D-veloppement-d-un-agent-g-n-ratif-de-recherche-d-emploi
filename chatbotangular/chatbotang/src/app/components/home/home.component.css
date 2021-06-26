@@ -1,0 +1,37 @@
+html,
+body{
+    background-color: rgb(175, 75, 75);
+    background-image: url("assets/img/formation-digital-marketing.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 650px;
+  
+
+}
+
+.center{
+    text-align: center;
+}
+
+header h2 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    color: #ecf0ee;
+    font-style: italic;
+    font-weight: 200;
+}
+.bs-example {
+    width: 450px;
+    background-color:rgba(228, 126, 165, 0.1);
+    vertical-align: middle;
+    margin: auto;
+    padding-top: 20px;
+    font-style: italic;
+
+  }
+
+  button{
+      background-color: rgb(138, 136, 133);
+      font-style: italic;
+  }
